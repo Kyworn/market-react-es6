@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
-import Products from './products.js';
+import Products from './Products';
+import Cart from './Cart';
 
 class App extends Component {
 
@@ -15,7 +16,10 @@ class App extends Component {
                 <div className="App-header">
                     <h2>Boutique React</h2>
                 </div>
-                <Products />
+                <div className="App-content">
+                    <Products />
+                    <Cart />
+                </div>
             </div>
         );
     }

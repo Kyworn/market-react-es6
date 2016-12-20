@@ -1,0 +1,47 @@
+.App-products {
+    background-color: #cddc39;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.products {
+    background-color: #cddc39;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.product {
+    background-color: #f0f4c3;
+    margin: 0 30px;
+    padding: 20px;
+    width: 150px;
+    height: 200px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.product input {
+    padding: 5px 0 5px 10px;
+    width: 50px;
+    margin: 20px 0;
+    outline: none;
+}
+.product button {
+    padding: 10px;
+    background-color: #8bc34a;
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.productTitle {
+    margin-bottom: 20px;
+}

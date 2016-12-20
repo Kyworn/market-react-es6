@@ -1,8 +1,11 @@
+import Product from './Product.js';
+
 class Loader {
-    constructor(){
-        this.produits = [];
+    constructor() {
+        this.products = [];
     }
-    loadFromDB(url, onLoadCallback){
+
+    loadFromDB(url, onLoadCallback) {
         this.onLoadCallback = onLoadCallback;
 
         let req = new XMLHttpRequest();
@@ -10,16 +13,12 @@ class Loader {
         req.open('GET', url, true);
         req.send();
     }
-    onDataReady(){
-        this.products = JSON.parse(event.target.responseText);
 
-        this.products.forEach( p => {
-            console.log(p.nom);
-            console.log(p.prixHT);
-        });
+    onDataReady() {
+        this.products = JSON.parse(event.target.responseText)
+            .map(p => new Product(p.nom, p.prixHT));
 
         this.onLoadCallback(this.products);
-
     }
 }
 
