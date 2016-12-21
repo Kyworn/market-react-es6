@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './Cart.css';
+import Achat from './Achat.js';
 
 class Cart extends Component {
     constructor(props){
@@ -18,12 +19,12 @@ class Cart extends Component {
         return (
             <div className="App-panier">
                 <h1>Panier</h1>
-                <table>
-                    <thead id="head">
+                <table cellSpacing="10">
+                    <thead>
                         <tr>
-                            <td>Nom</td>
-                            <td>Quantité</td>
-                            <td>Prix HT</td>
+                            <td className="thead">Article</td>
+                            <td className="thead">Quantité</td>
+                            <td className="thead">Prix HT</td>
                         </tr>
                     </thead>
                     <tbody>

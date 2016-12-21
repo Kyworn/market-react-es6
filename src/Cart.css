@@ -5,10 +5,12 @@
     flex-direction: column;
     align-items: center;
 }
-#head {
+.thead {
     border-bottom: 1px solid black;
+    margin-bottom: 10px;
 }
 td {
-    padding: 20px;
-    /*border: 1px solid;*/
+    margin: 0 5px;
+    padding: 10px;
+    border-collapse: collapse;
 }

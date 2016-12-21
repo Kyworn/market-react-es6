@@ -8,7 +8,6 @@ class Products extends Component {
         this.state = { products: [] };
         let loader = new Loader();
         loader.loadFromDB('http://localhost:8888/src/traitement.php', this.onCatalogueReady.bind(this));
-        this.render();
     }
     render(){
         let titleStyle = {
@@ -27,7 +26,7 @@ class Products extends Component {
                                 {product.prixHT} €
                             </div>
                             <input type="number" defaultValue="1"/>
-                            <button>Ajouter</button>
+                            <button onClick={this.setAchat.bind(this)}>Ajouter</button>
                         </div>
                     )}
                 </div>
@@ -38,6 +37,9 @@ class Products extends Component {
         console.log('products onCatalogueReady', products);
         this.setState({products: products});
         console.log('this.state', this.state.products);
+    }
+    setAchat(){
+        console.log(this)
     }
 }
 
