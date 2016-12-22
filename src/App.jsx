@@ -32,7 +32,7 @@ class App extends Component {
                     <h2>Boutique React</h2>
                 </div>
                 <div className="App-content">
-                    <Products onDataChanged={this.onDataChanged.bind(this)} />
+                    <Products data={this.products} onDataChanged={this.onDataChanged.bind(this)} />
                     <Cart purchases={this.state.achats}/>
                 </div>
             </div>

@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="97c2d230-4cbe-4689-b4b5-8db6eac0cc4c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Achat.js" afterPath="$PROJECT_DIR$/src/Achat.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.jsx" afterPath="$PROJECT_DIR$/src/App.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cart.jsx" afterPath="$PROJECT_DIR$/src/Cart.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Products.css" afterPath="$PROJECT_DIR$/src/Products.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Products.jsx" afterPath="$PROJECT_DIR$/src/Products.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,7 +26,7 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.6072309">
       <split-first>
-        <splitter split-orientation="vertical" split-proportion="0.35585043">
+        <splitter split-orientation="vertical" split-proportion="0.49820143">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
@@ -45,10 +42,22 @@
               <file leaf-file-name="App.jsx" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/App.jsx">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="-264">
-                      <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+                    <state relative-caret-position="504">
+                      <caret line="34" column="49" lean-forward="false" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
                       <folding>
                         <element signature="e#0#39#0" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="traitement.php" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/traitement.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="159">
+                      <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+                      <folding>
+                        <marker date="1482165530000" expanded="true" signature="143:165" ph="SELECT * FRO... produits" />
                       </folding>
                     </state>
                   </provider>
@@ -57,8 +66,8 @@
               <file leaf-file-name="Achat.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/Achat.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="72">
-                      <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+                    <state relative-caret-position="48">
+                      <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
                       <folding />
                     </state>
                   </provider>
@@ -91,9 +100,11 @@
               <file leaf-file-name="Products.jsx" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/Products.jsx">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="-262">
-                      <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-                      <folding />
+                    <state relative-caret-position="72">
+                      <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+                      <folding>
+                        <element signature="e#0#39#0" expanded="true" />
+                      </folding>
                     </state>
                   </provider>
                 </entry>
@@ -101,7 +112,7 @@
               <file leaf-file-name="ViewProduct.jsx" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/ViewProduct.jsx">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="600">
+                    <state relative-caret-position="-96">
                       <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
                       <folding>
                         <element signature="e#0#39#0" expanded="true" />
@@ -113,8 +124,8 @@
               <file leaf-file-name="Cart.jsx" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/Cart.jsx">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="290">
-                      <caret line="58" column="46" lean-forward="false" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
+                    <state relative-caret-position="210">
+                      <caret line="62" column="11" lean-forward="false" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
                       <folding>
                         <element signature="e#0#39#0" expanded="true" />
                       </folding>
@@ -200,8 +211,8 @@
         <option value="$PROJECT_DIR$/src/Products.css" />
         <option value="$PROJECT_DIR$/src/Achat.js" />
         <option value="$PROJECT_DIR$/src/Products.jsx" />
-        <option value="$PROJECT_DIR$/src/App.jsx" />
         <option value="$PROJECT_DIR$/src/ViewProduct.jsx" />
+        <option value="$PROJECT_DIR$/src/App.jsx" />
         <option value="$PROJECT_DIR$/src/Cart.jsx" />
       </list>
     </option>
@@ -396,12 +407,12 @@
       <workItem from="1482161627211" duration="26000" />
       <workItem from="1482161669526" duration="4795000" />
       <workItem from="1482226159791" duration="13632000" />
-      <workItem from="1482309899036" duration="14013000" />
+      <workItem from="1482309899036" duration="15156000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35993000" />
+    <option name="totallyTimeSpent" value="37136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -412,9 +423,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14257228" sideWeight="0.53373015" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.4918957" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11097708" sideWeight="0.4918957" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35464415" sideWeight="0.5081043" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11097708" sideWeight="0.5081043" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -618,16 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/traitement.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <marker date="1482165530000" expanded="true" signature="143:165" ph="SELECT * FRO... produits" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Products.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -646,16 +647,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Achat.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        <state relative-caret-position="48">
+          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ViewProduct.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/traitement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <marker date="1482165530000" expanded="true" signature="143:165" ph="SELECT * FRO... produits" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        <state relative-caret-position="504">
+          <caret line="34" column="49" lean-forward="false" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -664,16 +685,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Products.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-262">
-          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ViewProduct.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        <state relative-caret-position="72">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -682,8 +695,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cart.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="58" column="46" lean-forward="false" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
+        <state relative-caret-position="210">
+          <caret line="62" column="11" lean-forward="false" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
