@@ -54,9 +54,8 @@ class Cart extends Component {
     calcTotal(){
         const TVA = 0.2;
         let totalHT = this.props.purchases
-            .map((achat) => parseInt(achat.product.prixHT) * achat.quantity)
+            .map((achat) => parseInt(achat.product.prixHT, 10) * achat.quantity)
             .reduce((a,b) => a+b, 0);
-        // this.state.totalHT = totalHT.toFixed(2);
         this.setState({
             totalHT: totalHT.toFixed(2),
             totalTTC: (totalHT + (totalHT * TVA)).toFixed(2)
