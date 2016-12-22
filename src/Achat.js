@@ -1,5 +1,5 @@
 class Achat {
-    constructor(product, quantity){
+    constructor(product, quantity, price){
         this.product = product;
         this.quantity = quantity;
     }

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Loader from './Loader';
+import ViewProduct from './ViewProduct';
 import './Products.css';
 
 class Products extends Component {
@@ -10,36 +11,20 @@ class Products extends Component {
         loader.loadFromDB('http://localhost:8888/src/traitement.php', this.onCatalogueReady.bind(this));
     }
     render(){
-        let titleStyle = {
-            "marginBottom": "50px"
-        }
         return (
             <div className="App-products">
-                <h1 style={titleStyle}>Produits</h1>
+                <h1 className="h1">Produits</h1>
                 <div className="products">
                     {this.state.products.map( (product, key) =>
-                        <div className="product" key={key}>
-                            <div className="productTitle">
-                                {product.nom}
-                            </div>
-                            <div className="productPrice">
-                                {product.prixHT} €
-                            </div>
-                            <input type="number" defaultValue="1"/>
-                            <button onClick={this.setAchat.bind(this)}>Ajouter</button>
-                        </div>
+                        <ViewProduct product={product} key={key} onDataChanged={this.props.onDataChanged.bind(this)} />
                     )}
                 </div>
             </div>
         );
     }
     onCatalogueReady(products){
-        console.log('products onCatalogueReady', products);
         this.setState({products: products});
-        console.log('this.state', this.state.products);
-    }
-    setAchat(){
-        console.log(this)
+        console.log('this.state.products >> ', this.state.products);
     }
 }
 

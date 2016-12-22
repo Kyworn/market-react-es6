@@ -5,13 +5,15 @@
     flex: 1;
     min-height: 100vh;
 }
+.App-products .h1 {
+    margin-bottom: 50px;
+}
 .products {
     background-color: #cddc39;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 50px;
+    justify-content: space-around;
 }
 .product {
     background-color: #f0f4c3;
